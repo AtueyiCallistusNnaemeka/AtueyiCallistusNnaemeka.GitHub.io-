@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #FF4081;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #FF4081;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Be My Valentine?</h1>
+    <p>Dear [Girlfriend's Name],</p>
+    <p>I have a special question for you. Would you be my Valentine?</p>
+    <button onclick="answerYes()">Yes, I'd love to!</button>
+    <button onclick="answerNo()">Sorry, I can't</button>
+
+    <script>
+        function answerYes() {
+            alert("Thank you! You've made me the happiest. Happy Valentine's Day!");
+        }
+
+        function answerNo() {
+            alert("That's okay. I still appreciate you. Happy Valentine's Day!");
+        }
+    </script>
+</body>
+</html>
